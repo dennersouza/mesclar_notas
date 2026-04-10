@@ -21,7 +21,7 @@ class WorkerThread(QThread):
 
     def run(self):
         try:
-            self.update_signal.emit("Analisando estrutura de pastas..........")
+            self.update_signal.emit("Analisando estrutura de pastas######")
             
             # Verificar se o diretório selecionado já é uma pasta Simpress
             dir_name = os.path.basename(self.diretorio)
